@@ -9,6 +9,6 @@ Source the file kmeanscosine.R, then call the method kmeanscosine().
 
 ## parameters
 - data: your data in matrix or data.frame form, with numeric columns only.
-- k: the number of desired cluster centroids.
-- scale: True by default. Will run the base method `scale()` if True.
+- k: the number of desired clusters.
+- scale: Will run the base method `scale()` on `data` if True. True by default.
 - max.iter: number of maximum iterations. `Inf` by default.
